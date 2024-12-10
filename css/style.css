@@ -1,0 +1,108 @@
+/* All Common CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+    /* For Bootstrap, we need to make outline = 0, because by default it gets some outline */
+    outline: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+/* For Bootstrap a:hover gets text-decoration, by default, so we need to make it "none" */
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All Common CSS End */
+
+/* Header Part Start */
+.navbar {
+    margin-top: 10px;
+}
+.nav-link {
+    /* oxford blue */
+    color: #002147;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 72px;
+}
+.loginBtn, .signUpBtn{
+    color: #002147;
+    font-size: 20px;
+    font-weight: 500;
+    background: #fff;
+    border-radius: 28px;
+    padding: 15px 20px;
+    transition: .4s;
+}
+.loginBtn{
+    margin-right: 40px;
+}
+.loginBtn:hover, .signUpBtn:hover{
+    color: #fff;
+    background: #20B2AA; 
+}
+/* Header Part End */
+
+/* Banner Part Start */
+#bannerPart{
+    padding-top: 45px;
+}
+.card{
+    border: none;
+}
+.card-img-overlay {
+    background: rgba(0, 0, 0, 0.22);
+    border: none;
+    border-radius: 23px;
+}
+.bannerHead{
+    padding-top: 114px;
+    padding-bottom: 60px;
+}
+.bannerHead h3{
+    font-size: 21px;
+    font-weight: 300;
+}
+.bannerHead h1{
+    font-size: 97px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.bannerTextLeft h3{
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.bannerTextRight h3{
+    font-size: 21px;
+    font-weight: 300;
+    padding-right: 181px;
+}
+/* Banner Part End */
+
+/* Banner Part Start */
+/* Banner Part End */
+/* Banner Part Start */
+/* Banner Part End */
+/* Banner Part Start */
+/* Banner Part End */
